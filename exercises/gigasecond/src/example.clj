@@ -1,5 +1,5 @@
-(ns gigasecond)
-
+(ns gigasecond
+  
 "This works is extreme cases like:
  * Periods of any size (any positive number of seconds)
  * Periods that include years like 1900 inside (oddly not leap year)
@@ -14,7 +14,8 @@
  2a) Start: Remaining days in first month of the period
  2b) Middle: Find last month of the period (loop through months/years)
  2c) End: Days in the last month of the period
- Note: The number of seconds is embedded as `total-seconds` binding."
+ 
+ Note: The number of seconds is embedded as `total-seconds` binding.")
 
 (defn leap-year? [year]
   (cond
