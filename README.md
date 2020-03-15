@@ -1,4 +1,4 @@
-# Exercism Babashka Track
+# Exercism babashka track
 
 Exercism exercises in babashka.
 
