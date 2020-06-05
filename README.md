@@ -2,6 +2,8 @@
 
 Exercism exercises in babashka.
 
+**NOTE: This track has been bootstrapped and moved to [exercism/babashka](https://github.com/exercism/babashka)**. See you there!
+
 ## To run all tests
 
 Install [babashka](https://github.com/borkdude/babashka/)
